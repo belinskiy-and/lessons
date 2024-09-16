@@ -1,0 +1,32 @@
+/* Reset style */
+@import url("reset.css");
+/* --------------------------------------- */
+
+span {
+    color: blueviolet;
+}
+
+.link {
+    color: blue;
+}
+[target*="_blank"] {
+    color: chocolate;
+}
+.meaning {
+    color: cornflowerblue;
+}
+.meaning .link {
+    color: darkgreen;
+}
+
+.title {
+    color: rgb(255, 145, 0);
+}
+
+.text {
+    color: indigo;
+}
+
+.footer link {
+    color: chocolate;
+}
