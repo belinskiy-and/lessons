@@ -30,6 +30,11 @@ h2 {
     color: rgba(22, 4, 54, 0.705);
     text-shadow: 1px 1px 1px #863939;
 }
+.item .link {
+    color: brown;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
 .city-name {
     text-transform: uppercase;
     font-weight: 500;
