@@ -1,0 +1,97 @@
+/* Reset */
+@import url("reset.css");
+
+/* Fonts */
+@import url("fonts.css");
+
+/* --------------------------------------- */
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px; 
+    color: #302f2f;   
+}
+body {
+    line-height: 1.5;
+}
+h1 {
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    /* text-shadow: 1px 1px #863939; */
+}
+h2 {
+    font-size: 18px;
+}
+.title {
+    font-family: "Open Sans", sans-serif;
+    line-height: 2;
+    font-weight: 700;
+    color: rgba(22, 4, 54, 0.705);
+    text-shadow: 1px 1px 1px #863939;
+}
+.city-name {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.link {
+    color: rgb(10, 10, 201);
+    text-decoration: underline;
+}
+.main .link {
+    text-decoration-color: #863939;
+    text-decoration-style: dotted;
+}
+
+.footer {
+    font-style: italic;
+    text-align: right;
+}
+.footer a {
+    text-transform: uppercase;
+}
+
+/* Personal portfolio */
+
+.personal-portfolio {
+    font-family: "Work Sans";
+    font-size: 18px;
+    line-height: 1.33;
+    color: #556070;
+}
+
+.personal-portfolio-title {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1.32;
+    color: #132238;
+}
+
+/* Business Presentation */
+.business-presentation {
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    color: #474464;
+    line-height: 1.75;
+}
+.business-presentation-title {
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 1.08;
+    color: #1E1B39;
+}
+
+/* Landing Page Template */
+.landing-page-template {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #505F98;
+    line-height: 1.66;
+}
+.landing-page-template-title {
+    font-size: 50px;
+    font-weight: 500;
+    color: #091133;
+    line-height: 1.32;
+    letter-spacing: 1px;
+}
