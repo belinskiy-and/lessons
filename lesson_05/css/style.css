@@ -1,0 +1,236 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+/* -------------------------------------- */
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #252525;
+
+}
+body {
+    line-height: 1.5;
+}
+
+.header {
+    padding: 10px 15px;
+    color: rgb(90, 90, 90);
+}
+
+.header a {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+.article {
+    max-width: 800px;
+    margin-inline: auto;
+    padding-block: 10px;
+    padding-inline: 10px;
+}
+.article p {
+    margin-bottom: 20px;
+}
+.article a {
+    color: cadetblue;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: #9dcfd1;
+}
+
+.article .title {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 1px #a5a5a5;
+}
+h1 {
+    font-size: 28px;
+}
+.article .image {
+    display: block;
+    margin: 0 auto;
+    
+}
+
+/* Posts */
+.posts {
+    max-width: 800px;
+    margin-inline: auto;
+    padding-block: 10px;
+    padding-inline: 10px;
+    font-family: "Inter";
+    font-size: 16px;
+    color: #232536;
+}
+.posts .row {
+    margin-top: 64px;
+}
+.posts .title {
+    font-family: "Sen", sans-serif;
+    font-weight: 700;
+}
+.posts h2 {
+    font-size: 48px;
+    line-height: 133.333333%; /* 64/48 */
+}
+.posts .content {
+    display: inline-block;
+    width: 60%;
+    padding: 10px;
+}
+.posts .pretitle {
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #592EA9; 
+}
+.posts h3 {
+    font-size: 24px;
+    line-height: 1.333; /* 48/24 */
+    margin-bottom: 20px;
+}
+
+/* Introduce Your Product */
+.introduce {
+    width: 539px;
+    margin-inline: auto;
+    padding-block: 50px;
+    line-height: 1.66;
+    color: #505F98;
+}
+.introduce-title {
+    margin-bottom: 20px;
+    font-size: 50px;
+    line-height: 1.32;
+    color: #091133;
+}
+.introduce-text {
+    margin-bottom: 69px;
+}
+.introduce-link {
+    margin-right: 30px;
+    padding: 5px 15px;
+    min-width: 190px;
+    border: 2px solid #091133;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    color: #091133;
+}
+.introduce-link.accent {
+    background-color: #111B47;
+    color: #fff;    
+}
+
+/* Design section */
+.design {
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #6F7CB2;
+}
+.design-title {
+    margin-bottom: 16px;
+    font-size: 36px;  
+    font-weight: 500;  
+    line-height: 1.33;
+    color: #091133;
+}
+.design-text {
+    margin-bottom: 71px;    
+}
+.design-items {
+    margin: 0 -15px;
+    font-size: 0;
+}
+.design-item {
+    display: inline-block;
+    margin-bottom: 32px;
+    padding: 0 15px;
+    width: 50%;
+}
+.design-item-content {
+    font-size: 15px;
+}
+.design-icon {
+    margin-bottom: 14px;   
+}
+.item-title {
+    margin-bottom: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63;
+    color: #091133;
+}
+.item-text {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #5D6970;
+}
+
+/* Devices section */
+
+.devices {
+    padding-block: 30px;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    color: #999;
+    line-height: 1.5;
+    background-color: #141414;
+}
+.devices-container {
+    max-width: 1600px;
+    margin-inline: auto;
+}
+.devices-header {
+    margin-bottom: 80px;
+
+}
+.devices-title {
+    color: #fff;
+}
+.devices h2 {
+    margin-bottom: 14px;
+    font-size: 38px;
+    font-weight: 700;
+}
+.devices h3 {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 600;   
+}
+.device-list {
+    margin-inline: -15px;
+    font-size: 0;
+}
+.device-item {
+    display: inline-block;
+    padding-inline: 15px;
+    margin-bottom: 30px;
+    width: 33.333%;
+}
+.item-content {
+    padding: 50px;
+    border: 1px solid #262626;
+    border-radius: 12px;
+    font-size: 18px;
+    background: linear-gradient(222deg, rgba(229, 0, 0, 0.50) -208.03%, rgba(229, 0, 0, 0.00) 41.32%), #0F0F0F;
+
+}
+.device-item-header {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.device-icon {
+    margin-right: 16px;
+    vertical-align: middle;
+}
+
+
+
