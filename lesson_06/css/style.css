@@ -1,0 +1,161 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+/* ------------------------------------- */
+
+body {
+    font-family: Manrope;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #1E1E1E;
+    color: #fff;
+}
+.wrapper {
+    /* min-height: 100%; */
+    overflow: hidden;
+}
+.container {
+    max-width: 1171px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Hero */
+.header .link {
+    color: blue;
+    text-decoration: underline;
+}
+.header {
+    padding: 30px 0;
+
+}
+.hero {
+    padding-bottom: 50px;
+    background-color: #141414;
+}
+.title {
+    font-weight: 700;
+}
+.hero .content {
+    max-width: 1066px; /* 1096px - 30px */
+    margin: -66px auto 0;
+    padding: 0 15px;
+    text-align: center;
+}
+.hero .background {
+    /* padding-top: 814px; */
+    background: 
+        url("../img/bg-image-2.png") center / 470px no-repeat,
+        linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0.00) 100%) center 0 / auto 70% no-repeat,
+        linear-gradient(180deg, rgba(20, 20, 20, 0.00) 0%, #141414 100%) center bottom / auto 70% no-repeat,
+        url("../img/bg-image.png") center 0 / cover no-repeat,
+        url("../img/bg-image-1.png") center 0 / cover no-repeat;
+    height: 860px;
+}
+.hero .title {
+    margin-bottom: 14px;
+    font-size: 58px;
+    text-align: center;
+    line-height: 1.5;
+    
+}
+.hero .text {
+    margin-bottom: 50px;
+    color: #999;
+}
+.hero .link {
+    padding: 18px 24px 18px 57px;
+    background: url("../img/button-icon.svg") 24px center / 28px no-repeat;
+    background-color: #E50000;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/* Features */
+.features {
+    background: #FDF0E9;
+    font-family: Epilogue;
+    font-size: 16px;
+    color: #391400;
+}
+.features .container {
+    max-width: 1141px;
+    padding: 70px 15px;
+    background: url("../img/bg-features.png") right center / auto no-repeat;
+}
+.features .pre-title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    line-height: 2;
+    letter-spacing: 3px;
+    color: #EF6D58;
+}
+.features .title {
+    margin-bottom: 26px;
+    max-width: 470px;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1.14;
+    letter-spacing: -1px;
+}
+.features .text {
+    margin-bottom: 26px;
+    max-width: 470px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+.features .items {
+    color: rgba(57, 20, 0, 0.64);
+}
+
+.features .item {
+    margin-bottom: 16px;
+    padding-left: 48px;
+    padding-top: 5px;
+    max-width: 470px;
+    min-height: 32px;
+    background: url("../img/bg-item.svg") 0 / 32px  no-repeat;
+    vertical-align: middle;
+}
+
+/* Lesson */
+.lesson {
+    margin: 50px 0;   
+}
+.lesson .title {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding-block: 5px;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+.lesson .links {
+    padding: 30px;
+    text-align: center;
+}
+.lesson .link {
+    display: inline-block;
+    margin-right: 30px;
+    padding: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+    line-height: 0.5;
+
+}
+.lesson .link:hover {
+    background-color: #2742db;
+}
+.lesson-2 {
+    background-color: #fff;
+}
+.lesson-2 .background-panel {
+    height: 300px;
+    /* background-color: #fff; */
+    background:
+        url("../img/bg-image4.jpg") 0 0 / 150px no-repeat,
+        url("../img/bg-image4.jpg") right 0 / 150px no-repeat,
+        url("../img/bg-image4.jpg") center 0 / 150px no-repeat,
+        url("../img/bg-image4.jpg") 0 bottom / 150px no-repeat,
+        url("../img/bg-image4.jpg") center bottom / 150px no-repeat,
+        url("../img/bg-image4.jpg") right  bottom/ 150px no-repeat;
+}
