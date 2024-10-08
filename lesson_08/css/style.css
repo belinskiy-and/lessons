@@ -1,0 +1,69 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+body {
+    font-family: "Roboto";
+    font-size: 18px;
+    line-height: 1.2;
+    color: #fff;
+    background-color: #333;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+.container {
+    max-width: 1030px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header {
+    padding: 15px 0;
+    border-bottom: 1px solid #ebe691;
+    text-transform: uppercase;
+}
+.header .link {
+    color: #ebe691; 
+    /* font-weight: 600; */
+}
+.header .link:hover,
+.header .link:hover:focus {
+    text-decoration: underline;
+    color: #cfca62; 
+
+}
+
+/* Main */
+main {
+    padding: 20px 0;
+}
+.main .content {
+    background-color: #FDF0E9;
+    padding: 25px;
+    border-radius: 15px;
+    color: #391400;
+}
+.main .content *:last-child {
+    margin-bottom: 0;
+    outline: 1px solid tomato; /* <<< DEL */
+}
+.main h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    line-height: 1.5;
+}
+.title {
+    font-weight: 700;
+}
+.icons {
+    margin-bottom: 20px;
+}
+.icons .text {
+    margin-bottom: 15px;
+}
+.icon {
+    margin-right: 15px;
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+}
