@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lesson 14</title>
+</head>
+<body>
+    <div class="wrapper">
+        <main class="page">
+            <!-- Dark section -->
+            <div class="dark-section">
+                <div class="dark-section__container">
+                    <form class="dark-section__form form-dark" method="GET" enctype="multipart/form-data" action="#" >
+                        <div class="form-dark__line">
+                            <label class="form-dark__label">
+                                First Name
+                                <input type="text" class="form-dark__input" name="form[]" placeholder="Enter First Name" minlength="3" maxlength="50" autocomplete="off" required>    
+                            </label>
+                            <label class="form-dark__label">
+                                Last Name
+                                <input type="text" class="form-dark__input" name="form[]" placeholder="Enter Last Name" minlength="3" maxlength="50" autocomplete="off" required>    
+                            </label>
+                        </div>
+                        <div class="form-dark__line">
+                            <label class="form-dark__label">
+                                Email
+                                <input type="email" class="form-dark__input" name="form[]" placeholder="Enter your Email" minlength="3" maxlength="50" autocomplete="off" required>    
+                            </label>
+                            <label class="form-dark__label">
+                                Phone Number
+                                <input type="tel" class="form-dark__input" name="form[]" placeholder="Enter Phone Number" minlength="3" maxlength="50" autocomplete="off" required>    
+                            </label>
+                        </div>
+                        <div class="form-dark__line">
+                            <label class="form-dark__label">
+                                Email
+                                <textarea name="form[]" class="form-dark__input form-dark__input--textarea" placeholder="Enter your Message" minlength="3" maxlength="500" required></textarea>   
+                            </label>
+                        </div>
+                        <div class="form-dark__action-line">
+                            <div class="form-dark__checkbox-container checkbox">
+                                <input type="checkbox" id="checkbox" class="checkbox__input" name="confirm" required>
+                                <label for="checkbox" class="checkbox__label">I agree with Terms of Use and Privacy Policy</label>                                
+                            </div>
+                            <button type="submit" class="form-dark__button">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- White section -->
+            <div class="white-section">
+                <div class="white-section__container">
+                    <form action="#" class="white-section__form form-white">
+                        <p class="form-white__text">There are many variations of passages of Lorem Ipsu available, but the majority have suffered alte.</p>
+                        <div class="form-white__fields">
+                            <div class="form-white__line">
+                                <input type="text" class="form-white__input" name="form[]" minlength="3" maxlength="100" placeholder="Name*" autocomplete="off" required>
+                            </div>    
+                            <div class="form-white__line">
+                                <input type="email" class="form-white__input" name="form[]" minlength="3" maxlength="100" placeholder="Email*" autocomplete="off" required>
+                            </div>
+                            <div class="form-white__line">
+                                <input type="text" class="form-white__input" name="form[]" minlength="3" maxlength="100" placeholder="Location" autocomplete="off">
+                            </div>
+                            <div class="form-white__line">
+                                <input type="text" class="form-white__input form-white__input--short" name="form[]" minlength="3" maxlength="100" placeholder="Budget*" autocomplete="off" required>
+                                <input type="text" class="form-white__input" name="form[]" minlength="3" maxlength="100" placeholder="Subject*" autocomplete="off" required>
+                            </div>
+                            <div class="form-white__line">
+                                <textarea class="form-white__input form-white__input--textarea" name="form[]" minlength="3" maxlength="500" placeholder="Message*" required></textarea>
+                            </div>
+                        </div>
+                        <div class="form-white__action">
+                            <button type="submit" class="form-white__button button-submit">
+                                Submit
+                                <img src="img/button-icon.svg" alt="#" width="24"
+                                >
+                            </button>
+                        </div>
+                    </form>    
+                </div>    
+            </div>
+        </main>
+    </div>    
+</body>
+</html>
