@@ -130,7 +130,7 @@ body {
         color: #999;       
     }   
 }
-@media (min-width: 480px) and (max-width: 767.98px) {
+@media (min-width: 480px) and (max-width: 752.98px) {
     .movies__content {
         padding: 50px 30px 30px;
     }
@@ -141,7 +141,7 @@ body {
         font-size: 28px;
     }
 }
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 753px) and (max-width: 1329.98px) {
     .movies__items {
         flex-direction: row;
         flex-wrap: wrap;
@@ -162,7 +162,7 @@ body {
         max-width: 100%;
     }
 }
-@media (min-width: 992px) {
+@media (min-width: 1330px) {
     .movies__items {
         flex-wrap: nowrap;
         flex-direction: row;      
